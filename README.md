@@ -1,2 +1,2 @@
 # badminton-step-training
-badminton step training and my first jqury job
+ badminton step training made by animate, using HTML.
