@@ -163,7 +163,7 @@ p._updateVisibility = _updateVisibility;
 		}
 		
 		this.NumTxt.on('added', function() {
-			$('#NumTxt').val(function () {
+			$('#BreakTxt').val(function () {
 				return "请输入休息间隔(默认为" + Break + "s): ";
 			});
 		}, this, true);

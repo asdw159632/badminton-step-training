@@ -5,9 +5,10 @@
 			'visible': true,
 			'disabled': false,
 			'text': "",
-			'position': 'absolute'
+			'position': 'absolute',
+			'font-size':'23px'
         },
-		_props: ["left", "top", "width", "height", "position", "transform-origin", "transform"],
+		_props: ["left", "top", "width", "height", "position", "transform-origin", "transform", "font-size"],
 		_attrs: ["id", "disabled", "class"],
 		getCreateOptions: function() {
 			return $.extend(this.options, { 'id': "textinput" + _widgetID++ });
